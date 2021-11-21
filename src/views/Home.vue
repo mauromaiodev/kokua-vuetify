@@ -1,18 +1,63 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-app>
+    <v-row justify="center" no-gutters>
+      <v-form>
+        <v-col>
+          <v-btn
+            to="/atividade-2"
+            class="mx-2"
+            fab
+            dark
+            x-large
+            tile
+            color="pink"
+          >
+            <v-icon dark> mdi-heart </v-icon>
+          </v-btn>
+          <v-btn
+            to="/atividade-2"
+            class="mx-2"
+            fab
+            dark
+            x-large
+            tile
+            color="green"
+          >
+            <v-icon dark> mdi-star </v-icon>
+          </v-btn>
+        </v-col>
+        <v-col>
+          <v-btn
+            to="/atividade-2"
+            class="mx-2"
+            fab
+            dark
+            x-large
+            tile
+            color="purple"
+          >
+            <v-icon dark> mdi-cached </v-icon>
+          </v-btn>
+          <v-btn
+            to="/atividade-2"
+            class="mx-2"
+            fab
+            dark
+            x-large
+            tile
+            color="blue"
+          >
+            <v-icon dark> mdi-thumb-up </v-icon>
+          </v-btn>
+        </v-col>
+      </v-form>
+    </v-row>
+  </v-app>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Home",
-  components: {
-    HelloWorld,
-  },
+  name: "home",
+  components: {},
 };
 </script>
