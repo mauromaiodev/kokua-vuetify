@@ -3,19 +3,11 @@
     <v-row justify="center" no-gutters>
       <v-form>
         <v-col>
-          <v-btn
-            to="/atividade-2"
-            class="mx-2"
-            fab
-            dark
-            x-large
-            tile
-            color="pink"
-          >
+          <v-btn to="/cadastro" class="mx-2" fab dark x-large tile color="pink">
             <v-icon dark> mdi-heart </v-icon>
           </v-btn>
           <v-btn
-            to="/atividade-2"
+            to="/cadastro"
             class="mx-2"
             fab
             dark
@@ -29,7 +21,7 @@
         </v-col>
         <v-col>
           <v-btn
-            to="/atividade-2"
+            to="/cadastro"
             class="mx-2"
             fab
             dark
@@ -41,14 +33,14 @@
             <v-icon dark> mdi-cached </v-icon>
           </v-btn>
           <v-btn
-            to="/atividade-2"
+            to="/cadastro"
             class="mx-2"
             fab
             dark
             x-large
             tile
             color="blue"
-            dislabed
+            disabled
           >
             <v-icon dark> mdi-thumb-up </v-icon>
           </v-btn>

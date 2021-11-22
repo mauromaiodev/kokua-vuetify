@@ -15,12 +15,16 @@ const routes = [
     },
   },
   {
-    path: "/atividade-2",
-    name: "Atividade2",
+    path: "/cadastro",
+    name: "Cadastro",
     component: Cadastro,
     meta: {
       subtitulo: "Cadastro",
     },
+  },
+  {
+    path: "/",
+    redirect: "/home",
   },
 ];
 
