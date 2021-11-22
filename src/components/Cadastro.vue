@@ -40,7 +40,6 @@
             :disabled="!valid"
             dark
             class="mr-4"
-            to="/home"
             @click="snackbar = true"
           >
             Enviar
@@ -48,6 +47,7 @@
         </v-col>
       </v-form>
     </v-row>
+
     <v-snackbar v-model="snackbar" color="green" :timeout="2000">
       {{ text }}
 

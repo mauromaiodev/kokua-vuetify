@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import LoginTela from "../components/LoginTela.vue";
+import Cadastro from "../components/Cadastro.vue";
 
 Vue.use(VueRouter);
 
@@ -17,7 +17,7 @@ const routes = [
   {
     path: "/atividade-2",
     name: "Atividade2",
-    component: LoginTela,
+    component: Cadastro,
     meta: {
       subtitulo: "Cadastro",
     },
