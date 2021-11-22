@@ -22,6 +22,7 @@
             x-large
             tile
             color="green"
+            disabled
           >
             <v-icon dark> mdi-star </v-icon>
           </v-btn>
@@ -35,6 +36,7 @@
             x-large
             tile
             color="purple"
+            disabled
           >
             <v-icon dark> mdi-cached </v-icon>
           </v-btn>
@@ -46,6 +48,7 @@
             x-large
             tile
             color="blue"
+            dislabed
           >
             <v-icon dark> mdi-thumb-up </v-icon>
           </v-btn>
